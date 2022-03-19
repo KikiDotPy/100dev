@@ -8,16 +8,14 @@ h2 {
     color: purple;
     font-weight: bold;
     font-size: 25px;
-    border: solid;
-    border-color: orange;
+    border: 5px solid orange;
 }
 
 section {
     width: 50%;
     height: 200px;
     background: grey;
-    border: solid;
-    border-color: black;
+    border: 5px solid black;
 }
 
 p {
@@ -26,8 +24,7 @@ p {
 
 footer {
     background: black;
-    border: solid;
-    border-color: lightgray;
+    border: 5px solid lightgrey;
 }
 
 h3 {
