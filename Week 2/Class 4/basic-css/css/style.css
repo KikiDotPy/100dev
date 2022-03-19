@@ -15,7 +15,7 @@ section {
     width: 50%;
     height: 200px;
     background: grey;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 
 p {
@@ -24,11 +24,11 @@ p {
 
 footer {
     background: black;
-    border: 5px solid lightgrey;
+    border: 5px solid lightgreen;
 }
 
 h3 {
     color: white;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
