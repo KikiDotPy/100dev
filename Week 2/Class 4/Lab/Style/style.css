@@ -8,7 +8,10 @@ body {
     background: lightskyblue;
     color: white;
     font-family: 'Roboto Serif', serif;
+}
 
+header, footer{
+    text-align: center;
 }
 
 main {
@@ -35,7 +38,14 @@ a {
     color: limegreen;
     font-family: "Roboto", sans-serif;
     font-size: 11px;
-    border-right: solid 2px lightslategray;
+    font-weight: bold;
+    border-right: 2px solid lightslategray;
+    padding: 0 2% 0 2%;
+}
+
+a:active{
+    color: white;
+    text-decoration: none;
 }
 
 img {
