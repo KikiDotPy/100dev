@@ -1,18 +1,52 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
 body {
     background: lightskyblue;
     color: white;
-    border: 5px solid limegreen;
     font-family: 'Roboto Serif', serif;
+
+}
+
+main {
+    max-width: 500px;
+    max-height: 800;
+    border: 5px solid limegreen;
+    padding: 25px;
+    margin: 2%;
 }
 
 h1{
     font-style: italic;
+    font-size: 25px;
+}
+
+h4{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
     color: limegreen;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    border-right: 1px lightslategray;
 }
 
 img {
-    width: 20%
+    float: right;
+    width: 30%
+}
+
+li{
+    display: inline;
+}
+
+p{
+    font-size: 11px;
+    word-spacing: 2px;
+    line-height: 140%;
 }
