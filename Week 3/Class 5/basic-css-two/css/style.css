@@ -15,7 +15,7 @@ section {
 }
 
 /* Please make this h1 30px, gold, centered, and use the Source Sans Pro Font */
-section > h1 {
+h1 {
     font-size: 30px;
     color: gold;
     font-family: "Source Sans Pro", sans-serif;
