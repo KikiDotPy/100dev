@@ -7,3 +7,17 @@ header, footer {
     border: 1px solid black;
     clear: both;
 }
+
+.three {
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    height: 150px;
+}
+
+.two {
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 300px;
+}
