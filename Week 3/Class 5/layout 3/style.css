@@ -8,7 +8,7 @@ header, footer {
     clear: both;
 }
 
-.rec {
+section {
     height: 500px;
     width: 20%;
     border: 1px solid black;
@@ -17,7 +17,4 @@ header, footer {
 
 .square{
     width: 40%;
-    height: 500px;
-    border: 1px solid black;
-    float: left;
 }
