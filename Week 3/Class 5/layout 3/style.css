@@ -7,3 +7,17 @@ header, footer {
     border: 1px solid black;
     clear: both;
 }
+
+.rec {
+    height: 500px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+}
+
+.square{
+    width: 40%;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+}
