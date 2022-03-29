@@ -8,16 +8,13 @@ header, footer {
     clear: both;
 }
 
-.three {
+section {
     float: left;
-    width: 33%;
-    border: 1px solid black;
-    height: 150px;
+    width: 33,3333%;
+    border: 2px solid black;
+    height: 300px;
 }
 
 .two {
-    border: 1px solid black;
     width: 50%;
-    float: left;
-    height: 300px;
 }
