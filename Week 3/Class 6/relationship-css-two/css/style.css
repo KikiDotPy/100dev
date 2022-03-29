@@ -23,6 +23,6 @@ article > h2 + h2 {
 
 /* Please make only bob and pizza green */
 
-ul + ul > li > a{
+ul + ul a{
     color: green;
 }
