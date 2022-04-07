@@ -143,4 +143,15 @@ div.title > h3 + h3 {
   color: white;
   display: flex;
   align-items: flex-end;
+  padding-bottom: 1%;
+}
+
+.main-text *{
+  font-weight: 400;
+  margin: 1% 2%;
+}
+
+.main-text span {
+  border-left: 4px solid red;
+  padding-left: 1%;
 }
