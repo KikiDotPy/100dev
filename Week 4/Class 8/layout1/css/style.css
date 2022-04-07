@@ -43,7 +43,7 @@ header {
 section {
   display: inline;
   float: left;
-  width: 46%;
+  width: 48%;
   margin: 2%;
 }
 
@@ -55,8 +55,9 @@ header *{
 
 main > section + section div {
   float: left;
-  width: 50%;
-  height: 200px;
+  width: 46%;
+  height: 165px;
+  padding: 1%;
 }
 
 main + section {
@@ -78,6 +79,12 @@ ul {
 
 nav {
   width: 50%;
+}
+
+main section + section {
+  margin: 0;
+  height: 348px;
+  margin-left: 1%;
 }
 
 /******************************************
@@ -128,12 +135,14 @@ header button {
 div.title > h3 + h3 {
   color: gray;
   font-weight: 400;
-  margin-left: 70%;
+  margin-left: 68%;
 }
 
 #welcome {
   margin-left: 2%;
 }
+
+/* MAIN ARTICLE */
 
 .main {
   background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/1676D/production/_113931029_composite.jpg);
@@ -144,6 +153,7 @@ div.title > h3 + h3 {
   display: flex;
   align-items: flex-end;
   padding-bottom: 1%;
+  margin-right: 0;
 }
 
 .main-text *{
@@ -155,3 +165,46 @@ div.title > h3 + h3 {
   border-left: 4px solid red;
   padding-left: 1%;
 }
+
+/* FOUR ARTICLE */
+
+.one {
+  background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/A500/production/_113904224_arch.jpg);
+  background-size: 125%;
+  margin: 1%;
+  margin-top: 0;
+
+}
+
+.two {
+  background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/A632/production/_111864524_2020-04-18t130112z_2061940609_rc217g9mtg9h_rtrmadp_3_health-coronavirus-vaccine-oxford.jpg);
+  background-size: 100%;
+  margin: 1%;
+  margin-top: 0;
+}
+
+.three {
+  background-image: url(https://ychef.files.bbci.co.uk/1600x900/p08ngz84.webp);
+  background-size: 100%;
+  margin: 1%;
+  margin-bottom: 0;
+}
+
+.four {
+  background-image: url(https://ychef.files.bbci.co.uk/1600x900/p08nccts.webp);
+  background-size: 100%;
+  margin: 1%;
+  margin-bottom: 0;
+}
+
+section + section * {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 33%;
+}
+
+/* NEW SECTION LIST */
+
+
+
