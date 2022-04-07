@@ -35,9 +35,11 @@ header {
   font-size: 13px;
 }
 
+
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 section {
   display: inline;
   float: left;
@@ -67,10 +69,14 @@ li {
 }
 
 ul {
-  width: 700px;
+  width: 85%;
   display: flex;
   padding: 0;
   justify-content: space-between;
+}
+
+nav {
+  width: 50%;
 }
 
 /******************************************
@@ -108,4 +114,21 @@ header button {
   border-left: 1px solid gray;
   margin-left: 1%;
   cursor: pointer;
+}
+
+/* PRE SECTIONS */ 
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.title > h3 + h3 {
+  color: gray;
+  font-weight: 400;
+  margin-left: 70%;
+}
+
+#welcome {
+  margin-left: 1%;
 }
