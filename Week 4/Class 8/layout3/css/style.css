@@ -107,7 +107,9 @@ section {
 }
 
 .main-img {
-  width: 80%;
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
 }
 
 .main-section {
@@ -149,6 +151,7 @@ section {
 .name-span {
   font-weight: bold;
   font-size: 11px;
+  display: block;
 }
 
 li.no-border {
@@ -172,6 +175,11 @@ li.no-border {
 .kind-of-footer p{
   color: gray;
   line-height: 1.5;
-  padding: 0 5%;
+  padding: 0 7%;
   text-align: justify;
+}
+
+.date-span {
+  color: gray;
+  font-size: smaller;
 }
