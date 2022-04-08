@@ -32,14 +32,12 @@ nav *{
   color: rgb(49, 99, 233);
 }
 
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 1%;
   margin-bottom: 0;
@@ -53,12 +51,15 @@ nav > a {
   display: flex;
   justify-content: center;
 }
-
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
 nav img {
   width: 5%;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
