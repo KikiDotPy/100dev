@@ -1,6 +1,9 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
 }
 
 /* Clear fix hack */
@@ -20,17 +23,53 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-body {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+body {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 1%;
+}
+
+nav {
+  width: 15%;
+}
+
+main {
+  width: 85%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.second-section ul {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.logo {
+  width: 20%;
+}
+
+.main-img {
+  width: 80%;
+}
+
+.main-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-section {
+  width: 40%;
+}
