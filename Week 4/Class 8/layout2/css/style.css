@@ -21,22 +21,44 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+header {
+  border-bottom: 1px solid lightslategray;
 }
+
+nav *{
+  text-decoration: none;
+  font-weight: 800;
+  border: none;
+  color: rgb(49, 99, 233);
+}
+
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+  margin-bottom: 0;
 }
 
-footer {
-
+li {
+  display: inline;
 }
+
+nav > a {
+  display: flex;
+  justify-content: center;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+nav img {
+  width: 5%;
+}
