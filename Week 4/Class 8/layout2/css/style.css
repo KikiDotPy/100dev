@@ -22,7 +22,7 @@
 /*******************************************/
 
 header {
-  border-bottom: 1px solid lightslategray;
+  border-bottom: 1px solid rgb(240, 241,242);
 }
 
 nav *{
@@ -67,4 +67,30 @@ nav img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main-img {
+  width: 75%;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.search-bar {
+  background: rgb(240, 241,242);
+  height: 35px;
+  width: 50%;
+  margin-left: 5%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(49, 99, 233);
+  opacity: 1; /* Firefox */
+  padding-left: 10px;
+}
+
+.input-wrapper {
+  padding-left: 10%;
 }
