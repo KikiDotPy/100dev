@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* Clear fix hack */
@@ -32,15 +33,24 @@ nav *{
   color: rgb(49, 99, 233);
 }
 
+header ul {
+  width: 20%;
+  margin-right: 5%;
+  padding-left: 0;
+}
+
+header li {
+  margin: 3%;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  margin: 1%;
-  margin-bottom: 0;
+  margin: 0 1%;
 }
 
 li {
@@ -60,7 +70,7 @@ nav > a {
 /* ADDITIONAL STYLES
 /*******************************************/
 nav img {
-  width: 5%;
+  width: 7%;
 }
 
 .logo-wrapper {
@@ -81,8 +91,9 @@ nav img {
 
 .search-bar {
   background: rgb(240, 241,242);
-  height: 35px;
-  width: 50%;
+  height: 40px;
+  width: 60%;
+  margin: 4% 0;
   margin-left: 5%;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -92,5 +103,16 @@ nav img {
 }
 
 .input-wrapper {
-  padding-left: 10%;
+  padding-left: 5%;
+}
+
+.text-logo {
+  color: rgb(19,41,48);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header-option {
+  background: transparent;
+
 }
