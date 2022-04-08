@@ -33,6 +33,18 @@ main > section span.orange-span, main ul {
   margin-top: 2%;
 }
 
+main section ul *{
+  margin: 1% 0;
+  font-size: 110%;
+}
+
+li a > span {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 1% 0;
+  color: gray;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -70,6 +82,20 @@ section {
 
 .main-section *{
   margin: 0.5% 0;
+}
+
+.second-section li {
+  margin: 1%;
+  padding-top: 4%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 3%;
+}
+
+.kind-of-footer {
+  width: 85%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: row;
 }
 
 /******************************************
@@ -123,4 +149,18 @@ section {
 .name-span {
   font-weight: bold;
   font-size: 11px;
+}
+
+li.no-border {
+  border: none;
+}
+
+.bottom-span {
+  margin: 1% 15%;
+  margin-top: 2%;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding-bottom: 1%;
+  font-weight: bold;
+  font-size: 14px;
 }
