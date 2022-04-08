@@ -164,3 +164,14 @@ li.no-border {
   font-weight: bold;
   font-size: 14px;
 }
+
+.late-art-img {
+  width: 27%;
+}
+
+.kind-of-footer p{
+  color: gray;
+  line-height: 1.5;
+  padding: 0 5%;
+  text-align: justify;
+}
