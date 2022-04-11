@@ -37,7 +37,7 @@ a {
 }
 
 .black-bg {
-  background: black;
+  background: rgb(25, 31, 41);
   color: white;
 }
 
@@ -144,4 +144,23 @@ section.white-bg > p.nice-p {
 
 .smaller {
   padding: 1% 5%;
+}
+
+footer *{
+  margin: 0;
+  padding: 0;
+}
+
+.warn {
+  border-top: 1px solid white;
+  padding: 1% 0;
+}
+
+h6 {
+  font-size: 1em;
+  color: lightslategray;
+}
+
+.bottom-space {
+  padding: 2% 3%;
 }
