@@ -140,5 +140,8 @@ section.white-bg > p.nice-p {
 #volunteer {
   margin-bottom: 0;
   padding-top: 5%;
+}
 
+.smaller {
+  padding: 1% 5%;
 }
