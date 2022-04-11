@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Barlow Condensed', sans-serif;
+  background: rgb(106, 117, 136);
 }
 
 /* Clear fix hack */
