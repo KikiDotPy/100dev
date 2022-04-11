@@ -93,3 +93,33 @@ footer li {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.button {
+  border: 0;
+  border-radius: 2px;
+  background: white;
+  padding: 5% 10%;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 1%;
+}
+
+.nice-p {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.bigger-t {
+  font-size: larger;
+}
+
+.padding-b {
+  padding-bottom: 10%;
+}
+
+section.white-bg > p.nice-p {
+  width: 30%;
+} 
