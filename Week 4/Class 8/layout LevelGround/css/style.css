@@ -23,6 +23,10 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+a {
+  color: white;
+}
+
 .gray-bg *{
   background: rgb(220, 223, 226);
 }
@@ -37,8 +41,15 @@
   color: white;
 }
 
+.white-bg {
+  background: white;
+  color: black;
+}
+
 header img {
-  width: 10%;
+  width: 2%;
+  display: block;
+  margin: 0 auto;
 }
 
 .center {
@@ -53,7 +64,16 @@ header img {
 /*******************************************/
 header li{
   float: left;
-  width: 25%;
+  width: 80%;
+}
+
+li.near {
+  width: 5%;
+}
+
+li.right {
+  float: right;
+  width: 10%;
 }
 
 footer section {
