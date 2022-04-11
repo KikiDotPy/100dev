@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
   font-family: 'Barlow Condensed', sans-serif;
-  background: rgb(106, 117, 136);
 }
 
 /* Clear fix hack */
@@ -24,6 +23,15 @@
 /*******************************************/
 .gray-bg *{
   background: rgb(220, 223, 226);
+}
+
+.dgray-bg {
+  background: rgb(106, 117, 136);
+}
+
+.black-bg {
+  background: black;
+  color: white;
 }
 
 /******************************************
