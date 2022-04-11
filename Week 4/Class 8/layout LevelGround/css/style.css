@@ -59,6 +59,10 @@ header img {
   align-items: center;
 }
 
+.black-t *{
+  color: black;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -83,6 +87,10 @@ footer section {
 
 footer li {
   display: inline;
+}
+
+.spaces-pa {
+  padding: 5%;
 }
 
 .double-column{
@@ -123,3 +131,14 @@ h1 {
 section.white-bg > p.nice-p {
   width: 30%;
 } 
+
+.border-button {
+  padding: 2% 10%;
+  border: 1px solid black;
+}
+
+#volunteer {
+  margin-bottom: 0;
+  padding-top: 5%;
+
+}
