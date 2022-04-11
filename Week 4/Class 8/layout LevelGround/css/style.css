@@ -1,7 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
-  font-family: ;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 /* Clear fix hack */
