@@ -22,21 +22,30 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+.gray-bg *{
+  background: rgb(220, 223, 226);
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header li{
+  float: left;
+  width: 25%;
 }
 
-footer {
+footer section {
+  float: left;
+  width: 50%;
+}
 
+footer li {
+  display: inline;
+}
+
+.double-column{
+  float: left;
+  width: 50%;
 }
 
 /******************************************
