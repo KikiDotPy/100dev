@@ -153,7 +153,10 @@ footer *{
 
 .warn {
   border-top: 1px solid white;
-  padding: 1% 0;
+  padding: 1% 0%;
+  width: 93%;
+  display: block;
+  margin: 0 auto;
 }
 
 h6 {
@@ -163,4 +166,32 @@ h6 {
 
 .bottom-space {
   padding: 2% 3%;
+}
+
+footer li{
+  padding: 2%;
+  padding-left: 0;
+}
+
+.space-top {
+  padding-top: 2%;
+}
+
+.address {
+  width: 15%;
+  float: right;
+  margin-right: 3%;
+}
+
+section.address h6 {
+  padding-bottom: 10%;
+}
+
+.warn *{
+  display: inline;
+}
+
+.warn img{
+  float: right;
+  padding: 0 3%;
 }
