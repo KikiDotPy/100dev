@@ -81,7 +81,7 @@ li {
   width: 13%;
 }
 
-/* main style elements */
+/* main two columns section style elements */
 #brionne {
   padding: 5%;
   height: 500px;
@@ -117,4 +117,36 @@ li {
   font-weight: 100;
   font-size: 0.9em;
   word-spacing: 0.4em;
+}
+
+/* four column section style elements */
+#jojo {
+  padding: 0 5%;
+}
+
+#jojo h4, p {
+  margin: 3% 0;
+}
+
+#jojo a {
+  font-weight: bold;
+  font-size: smaller;
+}
+
+#jojo p {
+  font-size: 0.9em;
+}
+
+/* bottom section style */
+#teddiursa {
+  background: white;
+  padding: 2% 5%;
+}
+
+#teddiursa *{
+  background: white;
+}
+
+#teddiursa div {
+  width: 45%;
 }
