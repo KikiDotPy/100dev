@@ -72,6 +72,10 @@ li {
   padding: 5% 2%;
 }
 
+#burger {
+  display: none;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -121,7 +125,8 @@ li {
 
 /* four column section style elements */
 #jojo {
-  padding: 0 5%;
+  padding: 3% 5%;
+  margin-bottom: 20%;
 }
 
 #jojo h4, p {
@@ -149,4 +154,66 @@ li {
 
 #teddiursa div {
   width: 45%;
+}
+
+/* phone screen */ 
+@media screen and (max-width: 950px) {
+  body {
+    background: rgb(226, 233, 239);
+  }
+
+  .h-links, .h-btn {
+    display: none;
+  }
+
+  header {
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+  }
+
+  .logo {
+    width: 90%;
+    text-align: center;
+  }
+
+  #burger {
+    display: inline;
+    cursor: pointer;
+  }
+  #burger img {
+    float: left;
+    width: 2%;
+  }
+
+  .two-column {
+    width: 100%;
+    display: block;
+  }
+
+  #brionne {
+    height: 50%;
+    padding: 2%;
+  }
+
+  #brionne * {
+    width: 100%;
+  }
+
+  #brionne h2 {
+    width: 100%;
+    font-size: 3em;
+    text-align: left;
+    margin: 1% 0;
+  }
+
+  #brionne p {
+    width: 100%;
+    font-size: larger;
+    text-align: justify;
+  }
+
+  .four-column {
+    display: block;
+    width: 100%;
+  }
 }
