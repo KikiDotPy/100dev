@@ -68,11 +68,12 @@ header img {
 /*******************************************/
 header li{
   float: left;
-  width: 80%;
+  width: 78%;
 }
 
 li.near {
   width: 5%;
+  margin: 0 0.3%;
 }
 
 li.right {
