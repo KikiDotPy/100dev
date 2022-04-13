@@ -40,7 +40,7 @@
 }
 
 .h-links *{
-  padding: 0 0.5%;
+  padding: 0 1%;
   font-size: 0.9em;
 }
 
@@ -68,6 +68,10 @@ li {
   width: 33.333%;
 }
 
+.box-space {
+  padding: 5% 2%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -75,4 +79,42 @@ li {
 .h-btn {
   float: right;
   width: 13%;
+}
+
+/* main style elements */
+#brionne {
+  padding: 5%;
+  height: 500px;
+  display: block;
+  margin: auto 0;
+}
+
+#brionne span{
+  font-size: 8px;
+  letter-spacing: .1rem;
+}
+
+#brionne h2 {
+  font-weight: 600;
+  font-size: 1.8em;
+  width: 55%;
+}
+
+#brionne input{
+  background: rgb(226, 233, 239);
+  color: gray;
+  padding: 2% 10%;
+  padding-left: 2.5%;
+  margin: 3% 0;
+}
+
+#brionne button{
+  padding: 2.3% 6%;
+}
+
+#brionne p{
+  width: 70%;
+  font-weight: 100;
+  font-size: 0.9em;
+  word-spacing: 0.4em;
 }
