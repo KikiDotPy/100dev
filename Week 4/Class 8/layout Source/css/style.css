@@ -25,11 +25,13 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-body {
-
+.btn {
+  background: rgb(54, 69, 87);
+  color: white;
+  font-weight: bold;
+  font-size: smaller;
+  padding: 4% 8%;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -50,7 +52,10 @@ li {
   padding: 1%;
 }
 
-
+header li{
+  float: left;
+  width: 16.6666%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
