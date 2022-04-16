@@ -1,12 +1,6 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
-  background: rgb(249,249,251);
-  color: rgb(18,20,32);
-  border: none;
-  text-decoration: none;
-  padding: 0;
 }
 
 /* Clear fix hack */
@@ -26,44 +20,37 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-.bb, .bb *{
-  background: rgb(31, 37,51);
-  color: gray;
+
+body {
+
 }
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header li, img{
-  display: inline;
+header nav > *{
+  float: left;
+  width: 10%;
+  margin: 0 5%;
+  list-style: none;
 }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3%;
+header nav li{
+  float: left;
+  width: 33%;
 }
-
-.two-column {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+main > section{
+  width: 50%;
+  height: 600px;
+  float: left;
 }
+img{
+  width:50%;
+}
+main > section h1, main > section img{
+  margin-top: 200px;
+}  
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-header li {
-  font-size: 0.9em;
-  padding: 0 2.5%;
-}
-
-header nav {
-  width: 50%;
-}
-
-.numel {
-  width: 50%;
-  padding: 0 3%;
-}

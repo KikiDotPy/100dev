@@ -1,12 +1,6 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
-  background: rgb(249,249,251);
-  color: rgb(18,20,32);
-  border: none;
-  text-decoration: none;
-  padding: 0;
 }
 
 /* Clear fix hack */
@@ -26,44 +20,30 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-.bb, .bb *{
-  background: rgb(31, 37,51);
-  color: gray;
-}
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header li, img{
-  display: inline;
-}
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3%;
+main section, .bottom section{
+  width: 33.3333%;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
 }
-
-.two-column {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+.bottom section{
+  width: 50%;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-header li {
-  font-size: 0.9em;
-  padding: 0 2.5%;
-}
 
-header nav {
-  width: 50%;
-}
+/* On mobile, please make all sections stack  */
 
-.numel {
-  width: 50%;
-  padding: 0 3%;
-}
+/* On tablet, please make the sections in main stack  */
+
+/* On laptop, please keep the normal layout, but everything should be light green */
+
+/* On larger screens, please keep the normal layout, but everything should be light blue */
