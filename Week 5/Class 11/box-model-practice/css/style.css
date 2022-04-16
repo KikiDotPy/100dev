@@ -32,7 +32,7 @@ section {
 /* Please make the spans have thin Dodger Blue borders, 
 padding on the bottom and right, and light red background */
 span {
-    border: 1px solid blue;
+    border: 1px solid dodgerblue;
     padding-bottom: 5%;
     padding-right: 5%;
     background: lightcoral;
