@@ -41,31 +41,29 @@ main section, .bottom section{
 /*******************************************/
 
 /* On mobile, please make all sections stack  */
-@media screen and (max-width: 600px) {
-  body {
-    display: flex;
-    flex-direction: column;
+@media all and (max-width: 600px) {
+  main section, .bottom section{
+    width: 100%;
   }
 }
 
 /* On tablet, please make the sections in main stack  */
-@media  screen and (max-width: 900px) {
-  main{
-    display: flex;
-    flex-direction: column;
+@media  all and (max-width: 900px) {
+  main section {
+    width: 100%;
   }
 }
 
 /* On laptop, please keep the normal layout, but everything should be light green */
-@media screen and (max-width: 1024px) {
+@media all and (min-width: 900px) {
   * {
-    color: lightgreen;
+    background: lightgreen;
   }
 }
 
 /* On larger screens, please keep the normal layout, but everything should be light blue */
-@media screen and (max-width: 4000px) {
+@media all and (min-width: 1024px) {
   * {
-    color: lightblue;
+    background: lightblue;
   }
 }
