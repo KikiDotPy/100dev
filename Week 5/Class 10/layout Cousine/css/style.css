@@ -3,6 +3,9 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: sans-serif;
+  border: none;
+  background: transparent;
+  list-style-type: none;
 }
 
 /* Clear fix hack */
@@ -24,19 +27,20 @@
 /*******************************************/
 
 body {
-
+  background: rgb(242,	246,	247);
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header, ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer {
-
+nav {
+  width: 50%;
 }
 
 /******************************************
