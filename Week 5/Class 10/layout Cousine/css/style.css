@@ -54,6 +54,13 @@ nav {
   width: 50%;
 }
 
+.four-block {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -120,4 +127,26 @@ nav {
   width: 50%;
   text-align: justify;
   line-height: 150%;
+}
+
+/* third section style */
+.morelull {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3% 0;
+}
+
+.morelull ul {
+  width: 100%;
+  padding: 0 0 1% 0;
+  border-bottom: 1px solid lightgray;
+}
+
+/* fourth section style and layout */
+.espeon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
