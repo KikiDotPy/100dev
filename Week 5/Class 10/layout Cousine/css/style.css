@@ -28,6 +28,14 @@
 
 body {
   background: rgb(242,	246,	247);
+  font-size: 62.5%;
+}
+
+.poipole {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 15%;
 }
 
 /******************************************
@@ -46,3 +54,7 @@ nav {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.poipole h1 {
+  font-size: 2rem;
+  white-space: pre-line;
+}
