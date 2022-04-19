@@ -27,7 +27,8 @@
 /*******************************************/
 
 body {
-  background: rgb(242,	246,	247);
+  background: url(../food-bg.png) rgb(242,	246,	247) top right no-repeat;
+  background-size: 100%;
   font-size: 62.5%;
 }
 
@@ -36,7 +37,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0 12%;
-  background: url(../food-bg.png) center;
+  padding-bottom: 5%;
 }
 
 /******************************************
@@ -89,4 +90,24 @@ nav {
   height: 40px;
   width: 30%;
   cursor: pointer;
+  color: white;
+}
+
+/* about us style (second section) */
+.poipole h5 {
+  color: rgb(239,	142,	52);
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.poipole h2 {
+  font-size: 3rem;
+  white-space: pre-line;
+  margin: 1% 0;
+}
+
+.poipole p {
+  width: 50%;
+  text-align: justify;
+  line-height: 150%;
 }
