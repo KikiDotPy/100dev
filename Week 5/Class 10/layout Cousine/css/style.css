@@ -6,6 +6,7 @@
   border: none;
   background: transparent;
   list-style-type: none;
+  color: black;
 }
 
 /* Clear fix hack */
@@ -149,4 +150,16 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.number {
+  color: rgb(239,	142,	52);
+  font-weight: bold;
+  font-size: 2em;
+  padding: 1% 0;
+}
+
+.ph-ico {
+  padding: 1% 0;
+  border-radius: 50%;
 }
