@@ -41,6 +41,13 @@ body {
   padding-bottom: 5%;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -150,6 +157,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  background: white;
 }
 
 .number {
@@ -162,4 +171,17 @@ nav {
 .ph-ico {
   padding: 1% 0;
   border-radius: 50%;
+}
+
+.espeon h4, .espeon h6 {
+  margin: 0;
+  line-height: 150%;
+}
+
+.espeon h4 {
+  font-size: 2em;
+}
+
+.prova {
+  width: 50%;
 }
