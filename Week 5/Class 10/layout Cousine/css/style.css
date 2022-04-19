@@ -54,7 +54,16 @@ nav {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* main (first) section style and layout*/
 .poipole h1 {
   font-size: 2rem;
   white-space: pre-line;
+}
+
+.poipole ul{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding: 0;
 }
