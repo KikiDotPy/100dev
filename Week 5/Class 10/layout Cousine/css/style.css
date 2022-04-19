@@ -94,6 +94,16 @@ nav {
 }
 
 /* about us style (second section) */
+.ludicolo {
+  background: url(https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80) left top no-repeat;
+  padding: 5% 0 10% 30%;
+}
+
+.ludicolo button {
+  width: 20%;
+  margin-top: 2%;
+}
+
 .poipole h5 {
   color: rgb(239,	142,	52);
   font-size: 1.3em;
