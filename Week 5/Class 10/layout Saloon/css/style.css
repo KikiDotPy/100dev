@@ -121,3 +121,38 @@ nav {
   width: 90%;
   padding: 5% 0;
 }
+
+/* second section, 3 icon and descriptions */
+.drampa {
+  display: flex;
+  justify-content: center;
+  padding: 2% 0 5% 0;
+}
+
+.drampa section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  line-height: 150%;
+}
+
+.drampa p{
+  width: 50%;
+}
+
+.drampa img {
+  border-radius: 50%;
+  margin-bottom: 5%;
+}
+
+/* thirs section, video */
+.zangoose {
+  background: rgb(244,	244,	246);
+  display: flex;
+  align-items: center;
+}
+
+.zangoose p{
+  width: 50%;
+}
