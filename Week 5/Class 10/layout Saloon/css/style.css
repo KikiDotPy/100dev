@@ -183,6 +183,7 @@ nav {
   padding: 5% 5%;
 }
 
+/* section with 3 pictures */
 .pro div{
   background: black;
   padding: 5% 0;
@@ -205,3 +206,30 @@ nav {
   color: gray;
   font-size: 1em;
 }
+
+/* section with deal offer */
+.virizon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 2.5em;
+  white-space: pre-line;
+  background: url(https://images.unsplash.com/photo-1620717841004-b2129070b674?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1732&q=80) center left;
+  padding: 10% 20%;
+}
+
+.virizon button {
+  padding: 2% 3%;
+  font-size: 0.7rem;
+  margin-top: 3%;
+}
+
+.virizon strong {
+  font-size: 1.5em;
+}
+
+.virizon h3, .virizon h4 {
+  font-weight: 100;
+}
+
+/* lookbox pictures section */
