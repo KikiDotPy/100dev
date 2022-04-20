@@ -175,3 +175,33 @@ nav {
   font-size: 2.5em;
   line-height: 1em;
 }
+
+.pro {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 5% 5%;
+}
+
+.pro div{
+  background: black;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  bottom: 6%;
+}
+
+.pro h4 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.pro span {
+  color: gray;
+  font-size: 1em;
+}
