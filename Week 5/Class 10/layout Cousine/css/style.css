@@ -190,6 +190,7 @@ nav {
   padding-top: 4%;
 }
 
+/* fourth section style, testimonials */
 .nidoran h3{
   font-size: 2em;
   margin: 1% 0 0 0;
@@ -197,5 +198,14 @@ nav {
 
 .nidoran h6 {
   color: gray;
-  margin: 0;
+  margin: 0 0 2% 0;
+  word-spacing: 0.5em;
+  font-weight: 300;
+}
+
+.nidoran p {
+  font-size: 1.3em;
+  color: gray;
+  font-style: italic;
+  width: 70%;
 }
