@@ -14,5 +14,4 @@ function check() {
   } else {
     document.querySelector("#placeToSee").innerHTML = "Booooring.."
   }
-
 }
