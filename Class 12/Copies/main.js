@@ -5,8 +5,6 @@ let result;
 document.getElementById("").addEventListener("click", zero);
 
 
-
-
 // create a function for each element which interact with the result
 function zero() {
     result = 0;
