@@ -1,12 +1,12 @@
-// create a global variable for result
-let result;
+// create variable to store total
+let total;
 
-// add event listener to the element and let it call a function
-document.getElementById("").addEventListener("click", zero);
+// create event listener to catch what's happening on the page
+document.querySelector("#zero").addEventListener("click", zero);
 
 
-// create a function for each element which interact with the result
+// create function to respond to event (adding or subtracting numbers)
 function zero() {
-    result = 0;
-    document.querySelector("#result").innerHTML = "result";
+    total = 0;
+    document.querySelector("#total").innerHTML = total;
 }
