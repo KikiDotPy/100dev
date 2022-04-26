@@ -6,6 +6,15 @@
 *{
   box-sizing: border-box;
   font-size: 62.5%;
+  color: white;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80) center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /******************************************
@@ -14,12 +23,20 @@
 .container {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
+  width: 400px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  border-radius: 20px;
 }
 
 .container-h {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
 }
 
 .child {
