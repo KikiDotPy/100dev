@@ -5,7 +5,7 @@ document.getElementById("chill").addEventListener("click", bgChill);
 // Drink selector
 document.getElementById("coffee").addEventListener("click", coffeeIcon)
 document.getElementById("tea").addEventListener("click", teaIcon);
-document.getElementById("smoothie").addEventListener("click", smoothieIcon);
+document.getElementById("smoothie").addEventListener("click", cocktailIcon);
 
 function bgCozy() {
     document.querySelector("body").style.backgroundImage = "url(https://images.unsplash.com/photo-1559235387-25d3011f5ba8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)"
