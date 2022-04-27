@@ -12,6 +12,7 @@
 body {
   background: url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80) center top no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -52,6 +53,15 @@ body {
 
 .hide {
   display: none;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.drinks {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /******************************************
