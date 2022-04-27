@@ -5,6 +5,6 @@
 
 // structure function
 // put id on the input and take and store the input value in a variable
-// do the math in a new variable
+// do the math in a new variable to convert cel in farh
 // put the new value into HTML element
 
