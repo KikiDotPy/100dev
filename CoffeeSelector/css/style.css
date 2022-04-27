@@ -24,8 +24,8 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 200px;
+  width: 350px;
+  height: 180px;
   background: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
@@ -59,14 +59,15 @@ body {
   align-self: flex-start;
 }
 
-.drinks {
-  display: flex;
-  justify-content: flex-end;
-}
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-img {
-  width: 30%;
+#coffeeImg {
+  position: absolute;
+  width: 20%;
+}
+
+#teaImg {
+  position: absolute;
+  width: 25%;
 }
