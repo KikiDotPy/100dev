@@ -23,7 +23,9 @@ function bgCozy() {
     document.querySelector("#teaImg").style.right = "-50px";
     document.querySelector("#teaImg").style.bottom = "100px";
     // cocktail position
-
+    document.querySelector("#cocImg").style.width = "35%";
+    document.querySelector("#cocImg").style.right = "250px";
+    document.querySelector("#cocImg").style.bottom = "-70px";
 }
 
 function bgCalm() {
@@ -42,6 +44,10 @@ function bgCalm() {
     document.querySelector("#teaImg").style.right = "190px";
     document.querySelector("#teaImg").style.bottom = "10px";
     // cocktail position
+    document.querySelector("#cocImg").style.width = "60%";
+    document.querySelector("#cocImg").style.right = "-20px";
+    document.querySelector("#cocImg").style.bottom = "-105px";
+    document.querySelector("#cocImg").style.zIndex = "-2";
 
 }
 
@@ -54,7 +60,7 @@ function bgChill() {
     document.querySelector("#drink").classList.add("left")
     // coffee position
     document.querySelector("#coffeeImg").style.width = "25%";
-    document.querySelector("#coffeeImg").style.right = "200px";
+    document.querySelector("#coffeeImg").style.right = "150px";
     document.querySelector("#coffeeImg").style.bottom = "2px";
     // tea position
     document.querySelector("#teaImg").style.width = "30%";
@@ -62,7 +68,10 @@ function bgChill() {
     document.querySelector("#teaImg").style.bottom = "50px";
     document.querySelector("#teaImg").style.zIndex = "-1";
     // cocktail position
-
+    document.querySelector("#cocImg").style.width = "40%";
+    document.querySelector("#cocImg").style.right = "-80px";
+    document.querySelector("#cocImg").style.bottom = "-20px";
+    document.querySelector("#cocImg").style.zIndex = "-2";
 }
 
 function coffeeIcon() {
