@@ -27,7 +27,10 @@ while (number > 100 || number < 50) {
 
 // Write a program that asks the user for a number, then shows the multiplication table for this number.
 
-let number = prompt("Insert number: ");
+let number;
+while (number < 2 || number > 9) {
+    number = prompt("Insert number: ");
+}
 
 for(let i = 0; i <= 10; i++) {
     console.log(`${number} x ${i} = ${number * i}`);
