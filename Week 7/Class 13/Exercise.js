@@ -35,3 +35,9 @@ while (number < 2 || number > 9) {
 for(let i = 0; i <= 10; i++) {
     console.log(`${number} x ${i} = ${number * i}`);
 }
+
+// Write a program that plays "neither yes, nor no" with the user. Specifically, the programs asks the user to enter text until either "yes" or "no" is typed, which ends the game.
+ let user = ""
+ while (user !== "yes" || user !== "no") {
+    user = (prompt("Enter a word: ")).toLowerCase();
+ }
