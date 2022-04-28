@@ -36,3 +36,30 @@ function pow(x, n) {
     
     return result;
 }
+
+
+
+// ARROW FUNCTIONS
+function ask(question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
+  }
+  
+  ask(
+    "Do you agree?",
+    function() { alert("You agreed."); },
+    function() { alert("You canceled the execution."); }
+  );
+
+// rEPLACING WITH ARROW FUNCTIONS
+
+function ask(question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
+  }
+  
+  ask(
+    "Do you agree?",
+    () => alert("You agreed."),
+    () => alert("You canceled the execution.")
+  );
