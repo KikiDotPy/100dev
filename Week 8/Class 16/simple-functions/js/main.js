@@ -18,8 +18,7 @@ function multiply(one, two, three) {
 //create a function that takes in three numbers. Add the first two numbers and return the 
 // remainder of dividing the sum of the first two numbers by the third number
 function fancyFunc(one, two, three) {
-    const sum = one + two;
-    return sum / three;
+    return (one + two) % three;
 }
 
 //---Hard
