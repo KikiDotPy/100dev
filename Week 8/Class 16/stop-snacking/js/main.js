@@ -5,6 +5,7 @@ document.querySelector('#help').addEventListener('click', noSnack)
 
 function noSnack() {
     const input = Number(document.querySelector('input').value);
+    document.querySelector('#stops').innerText = ""
     for(let i = 0; i < input; i++) {
         document.querySelector('#stops').innerText += " Stop Snacking!!!";
     }
