@@ -26,5 +26,5 @@ const h1Holder = document. querySelector('h1');
 h1Holder.addEventListener('click', 'sum');
 
 function sum() {
-    consolelog(num + inputVal)
+    console.log(num + Number(inputVal))
 }
