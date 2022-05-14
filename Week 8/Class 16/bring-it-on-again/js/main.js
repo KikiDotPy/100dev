@@ -44,7 +44,7 @@ function weekDay(day) {
 //*Loops*
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
 function loop(n) {
-    for(let i = 1; i >= n; i + 3) {
+    for(let i = 1; i >= n; i += 3) {
         console.log(i)
     }
 }
