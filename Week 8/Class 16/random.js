@@ -76,9 +76,29 @@ console.log(min(4.5, 5));
 console.log(min(19, 9));
 console.log(min(1, 1)); */
 
+/* 
+PYRAMID
 for (let i = 0; i < 7; i++) {
     for (let j = 0; j < i; j++) {
         process.stdout.write("#");
     }
     console.log("");
+}
+*/
+
+// print all number from 1 to 100 BUT
+// n % 3 === 0 "Fizz"
+// n % 5 === 0 "Buzz"
+// both FizzBuzz
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 !== 0) {
+        console.log("Fizz");
+    } else if (i % 5 === 0 && i % 3 !== 0) {
+        console.log("Buzz");
+    } else if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz");
+    } else {
+        console.log(i);
+    }
 }
