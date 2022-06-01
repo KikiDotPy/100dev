@@ -40,7 +40,7 @@ switch (day) {
         console.log("Wrong day name");
 } */
 
-let nb1, nb2, nb3;
+/* let nb1, nb2, nb3;
 nb1 = 2;
 nb2 = 4;
 nb3 = 0;
@@ -56,4 +56,18 @@ if (nb1 > nb2) {
         nb3 = nb3 *2 + nb2;
     }
 }
-console.log(nb1, nb2,nb3);
+console.log(nb1, nb2,nb3); */
+
+function square1(x) {
+    return x * x;
+}
+
+const square2 = x => x * x;
+
+console.log(square1(0));
+console.log(square1(2));
+console.log(square1(5));
+
+console.log(square2(0));
+console.log(square2(2));
+console.log(square2(5));
