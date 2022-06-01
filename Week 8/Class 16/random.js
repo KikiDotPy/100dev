@@ -68,10 +68,17 @@ for(let i = 0; i <= 10; i++) {
     console.log(square2(i));
 } */
 
-function min(a, b) {
+/* function min(a, b) {
     return a <= b ? a : b;
 }
 
 console.log(min(4.5, 5));
 console.log(min(19, 9));
-console.log(min(1, 1));
+console.log(min(1, 1)); */
+
+for (let i = 0; i < 7; i++) {
+    for (let j = 0; j < i; j++) {
+        process.stdout.write("#");
+    }
+    console.log("");
+}
