@@ -58,7 +58,7 @@ if (nb1 > nb2) {
 }
 console.log(nb1, nb2,nb3); */
 
-function square1(x) {
+/* function square1(x) {
     return x * x;
 }
 
@@ -66,4 +66,12 @@ const square2 = x => x * x;
 
 for(let i = 0; i <= 10; i++) {
     console.log(square2(i));
+} */
+
+function min(a, b) {
+    return a <= b ? a : b;
 }
+
+console.log(min(4.5, 5));
+console.log(min(19, 9));
+console.log(min(1, 1));
