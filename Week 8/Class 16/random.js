@@ -90,7 +90,7 @@ for (let i = 0; i < 7; i++) {
 // n % 3 === 0 "Fizz"
 // n % 5 === 0 "Buzz"
 // both FizzBuzz
-
+/* FIZZBUZZ
 for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 !== 0) {
         console.log("Fizz");
@@ -101,4 +101,22 @@ for (let i = 1; i <= 100; i++) {
     } else {
         console.log(i);
     }
+} */
+
+// print 8 x 8 grid with spaces and # alternating
+const size = 8; //this is the variable setting
+
+let board = "";//this is the empty string we're going to add either ' ' , '#' or newline
+
+for (let i = 0; i < size; i++) {   /*in the outer loop we add newline to seperate rows*/
+  for (var j = 0; j < size; j++) {/*every inner loop rappresents a line, and alternatively it's adding either ' ' or '#' to the string that's being populated*/
+    if ((j + i) % 2 == 0)
+      board += " ";
+    else
+      board += "#";
+  }
+  board += "\n";
 }
+
+console.log(board);
+
