@@ -119,3 +119,4 @@ for (let i = 0; i < size; i++) {   /*in the outer loop we add newline to seperat
 }
 
 console.log(board);
+
