@@ -10,5 +10,5 @@ numbers.forEach((n, i) => numbers[i] = n + 3);
 //Find the average of all the numbers from question three
 const nLen = numbers.length;
 const sum = 0;
-numbers.forEach((n) => sum += n)
+numbers.forEach((n) => sum += n);
 console.log(sum/nLen);
