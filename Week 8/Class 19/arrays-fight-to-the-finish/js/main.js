@@ -8,7 +8,7 @@ const numbers = [10, 40, 30];
 numbers.forEach((n, i) => numbers[i] = n + 3);
 
 //Find the average of all the numbers from question three
-const nLen = numbers.length;
+const numsLen = numbers.length;
 const sum = 0;
 numbers.forEach((n) => sum += n);
-console.log(sum/nLen);
+console.log(sum / numsLen);
