@@ -35,7 +35,7 @@ console.log(Alex.describe()); */
 
 // Musketeers
 
-const musketeers = ["Athos", "Porthos", "Aramis"];
+/* const musketeers = ["Athos", "Porthos", "Aramis"];
 for (const el of musketeers) {
     console.log(el);
 }
@@ -44,4 +44,9 @@ musketeers.forEach(el => console.log(el));
 musketeers.splice(2, 1);
 for (const el of musketeers) {
     console.log(el);
-}
+} */
+
+// SUM
+
+const values = [3,11,7,2,9,10];
+console.log(values.reduce((a, b) => a + b))
