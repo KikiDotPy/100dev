@@ -16,7 +16,7 @@ Aurora.strenght += 10;
 // Aurora kills a monster
 
 Aurora.exp += 100; */
-
+/* 
 const Alex = {
     name : "Alex",
     balance : 0,
@@ -31,4 +31,17 @@ const Alex = {
 };
 
 Alex.credit(250);
-console.log(Alex.describe());
+console.log(Alex.describe()); */
+
+// Musketeers
+
+const musketeers = ["Athos", "Porthos", "Aramis"];
+for (const el of musketeers) {
+    console.log(el);
+}
+musketeers.push("D'Artagnan");
+musketeers.forEach(el => console.log(el));
+musketeers.splice(2, 1);
+for (const el of musketeers) {
+    console.log(el);
+}
