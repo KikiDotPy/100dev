@@ -48,5 +48,25 @@ for (const el of musketeers) {
 
 // SUM
 
-const values = [3,11,7,2,9,10];
-console.log(values.reduce((a, b) => a + b))
+/* const values = [3,11,7,2,9,10];
+console.log(values.reduce((a, b) => a + b)) */
+
+function camelize(arr) {
+    let words = arr.split("-");
+    console.log(words)
+    let newArr = words.map( e => e.charAt(0).toUpperCase() + e.slice(1));
+    return newArr.join("");
+}
+
+console.log(camelize("ciao-sono-io"));
+
+function camelize(str) {
+    return str
+      .split('-') // splits 'my-long-word' into array ['my', 'long', 'word']
+      .map(
+        // capitalizes first letters of all array items except the first one
+        // converts ['my', 'long', 'word'] into ['my', 'Long', 'Word']
+        (word, index) => index == 0 ? word : word[0].toUpperCase() + word.slice(1)
+      )
+      .join(''); // joins ['my', 'Long', 'Word'] into 'myLongWord'
+  }
