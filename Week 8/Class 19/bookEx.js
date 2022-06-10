@@ -51,7 +51,7 @@ for (const el of musketeers) {
 /* const values = [3,11,7,2,9,10];
 console.log(values.reduce((a, b) => a + b)) */
 
-function camelize(arr) {
+/* function camelize(arr) {
     let words = arr.split("-");
     console.log(words)
     let newArr = words.map( e => e.charAt(0).toUpperCase() + e.slice(1));
@@ -69,4 +69,17 @@ function camelize(str) {
         (word, index) => index == 0 ? word : word[0].toUpperCase() + word.slice(1)
       )
       .join(''); // joins ['my', 'Long', 'Word'] into 'myLongWord'
-  }
+  } */
+
+/* function filterRange(arr, a, b) {
+    return arr.filter( x => (x >= a && x <= b) ? x : false)
+}
+console.log(filterRange([5, 3, 8, 1], 1, 4));
+
+// solution 
+function filterRange(arr, a, b) {
+    // added brackets around the expression for better readability
+    return arr.filter(item => (a <= item && item <= b));
+  } */
+
+  
