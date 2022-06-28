@@ -39,7 +39,7 @@ function yayOrNay(month){
 //Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
 function loopNotFive(n){
     for (let i = 1; i <= n; i++){
-        if (!(i % 5 === 0)){
+        if (i % 5 !== 0){
             console.log(i);
         }
     }
