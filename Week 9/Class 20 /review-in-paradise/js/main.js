@@ -21,7 +21,7 @@ divideAndMulty(1,3,4);
 
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
 function root(n) {
-    console.log(Math.pow(n));
+    console.log(Math.pow(n).toFixed(4));
 }
 
 // *Conditionals*
