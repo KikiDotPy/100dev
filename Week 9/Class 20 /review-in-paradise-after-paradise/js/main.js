@@ -4,5 +4,12 @@
 // If they are equal, alert "We close in an hour".
 
 function check(arr) {
+    if (arr[0] < arr[arr.length - 1]){
+        alert("Hi")
+    } else if (arr[0] > arr[arr.length - 1]) {
+        alert("Bye")
+    } else if (arr[0] === arr[arr.length - 1]) {
+        alert("We close in an hour")
+    }
     
 }
