@@ -27,8 +27,8 @@ function consoleLower(n1,n2,n3) {
 // *Conditionals*
 //Create a function that returns heads or tails randomly and as fairly as possible. Call the function.
 function headOrTail() {
-    const num = Math.floor(Math.random() * 2);
-    return num <= 1 ? "Tail" : "Head";
+    const num = Math.random();
+    return num < .5 ? "Tail" : "Head";
 }
 
 
