@@ -12,3 +12,7 @@ console.log(numEven(nums));
 
 //Create a function that takes in an array of numbers
 //Alert the sum of the second lowest and the second highest number
+function sumLowHigh (arr) {
+    const sorted = arr.sort((a,b) => a - b);
+    alert(sort[1] + sort[-2]);
+}
