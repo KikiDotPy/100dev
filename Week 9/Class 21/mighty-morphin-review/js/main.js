@@ -31,6 +31,8 @@ function headOrTail() {
     return num < .5 ? "Tail" : "Head";
 }
 
+let headOrTail = () => Math.random() < .5 ? "Tail" : "Head";
+
 
 //*Loops*
 //Create a function that takes in a number. Console log the result of heads or tails using the previous function x 
