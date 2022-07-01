@@ -18,7 +18,9 @@ subAlert(2,3,4,5,6);
 
 // Create a function that takes in 3 numbers. Console log lowest and highest values. Call the function.
 function consoleLower(n1,n2,n3) {
-
+    const min = Math.min(n1,n2,n3);
+    const max = Math.max(n1,n2,n3);
+    console.log(`Lowest is ${min}, Higher is ${max}`);
 }
 
 
