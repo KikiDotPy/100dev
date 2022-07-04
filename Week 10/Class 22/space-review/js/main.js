@@ -25,6 +25,11 @@ function reverseStr(str){
 
 console.log(reverseStr("ciao"));
 
+function reverse(str) {
+    const reversedStr = str.split("").reverse().join("");
+    console.log(reversedStr);
+}
+
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
 function palindrome(str){
