@@ -33,6 +33,8 @@ function reverse(str) {
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
 function palindrome(str){
-    const reversed = str.reverseStr();
-    return reversed === str;
+    const strReversed = str.reverseStr();
+    return strReversed === str;
 }
+
+const isPalindrome = s => s === s.split("").reverse().join() ? alert("Yes") : alert("No");
