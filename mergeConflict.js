@@ -6,7 +6,6 @@
     	<meta name="keywords" content="one, two, three">
 
 		<title>Title</title>
-
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
