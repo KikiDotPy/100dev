@@ -5,7 +5,7 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in Tab</title>
+		<title>Title</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
