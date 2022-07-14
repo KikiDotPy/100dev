@@ -2,7 +2,7 @@
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
 const nums = [1,2,3,4,5];
-alert(nums.reduce((sum,num) => sum = num, 0))
+alert(nums.reduce((sum,num) => sum + num, 0))
 
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
