@@ -7,7 +7,7 @@ alert(nums.reduce((sum,num) => sum + num, 0))
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 function squared(nums){
-    return nums.map(n => Math.sqrt(n))
+    return nums.map(n => n**2)
 }
 
 //Create a function that takes string
