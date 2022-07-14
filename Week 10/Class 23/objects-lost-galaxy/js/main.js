@@ -6,6 +6,6 @@ dog.size = "little"
 dog.tail = true
 dog.teeth = "Sharp"
 
-dog.bark = function() => {console.log("Bau!")}
-dog.happy = function() => {console.log("dog happy")}
-dog.hungry = function() => {console.log("dog hungry")}
+dog.bark = function(){console.log("Bau!")}
+dog.happy = function() {console.log("dog happy")}
+dog.hungry = function() {console.log("dog hungry")}
