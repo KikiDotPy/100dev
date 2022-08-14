@@ -17,3 +17,5 @@ function Pizza(sauce, toppings, cheese, size){
         console.log("sjdnsjfblk..")
     }
 }
+
+let margherita = new Pizza(true, ["cheese", "basil"], "mozzarella", 'large');
