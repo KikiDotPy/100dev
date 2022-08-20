@@ -33,3 +33,11 @@ section {
   border-radius: 20px;
   margin: 8% 20% 20% 20%;
 }
+
+#quote {
+  font-style: italic;
+}
+
+#chaName {
+  font-weight: bold;
+}
