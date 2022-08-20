@@ -9,7 +9,7 @@ function getFetch(){
       .then(data => {
         console.log(data)
         document.getElementById('animeName').innerHTML = data.anime
-        document.getElementById('charName').innerHTML = data.character
+        document.getElementById('charName').innerHTML = `-- ${data.character}`
         document.getElementById('quote').innerHTML = `"${data.quote}"`
       })
       .catch(err => {

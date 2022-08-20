@@ -34,10 +34,18 @@ section {
   margin: 8% 20% 20% 20%;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  padding-top: 2%;
+}
+
 #quote {
   font-style: italic;
 }
 
-#charName {
+#animeName {
   font-weight: bold;
 }
