@@ -19,3 +19,41 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+body {
+  background-image: url(https://images4.alphacoders.com/936/936849.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#start {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 8% 5% 0 5%;
+  color: #fffffa;
+  text-align: center;
+}
+
+#box {
+  background-image: url(http://nintendohall.altervista.org/wp-content/uploads/2020/03/My-Nintendo-ora-disponibili-due-wallpaper-di-Animal-Crossing-New-Horizons-sullo-store-europeo.jpg);
+  background-size: 670px;
+  padding: 6%;
+  border-radius: 10px;
+}
+
+span {
+  text-align: center;
+  color: #fffffa;
+}
+
+button {
+  background-color: #81f1f7;
+  color: #fffffa;
+  padding: 2%;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: larger;
+}
