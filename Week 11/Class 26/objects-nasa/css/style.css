@@ -19,3 +19,17 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+img {
+  height: 40%;
+  width: 40%;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 0 5%;
+}
