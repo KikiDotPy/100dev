@@ -2,7 +2,8 @@
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
-  const choice = document.querySelector('input').value
+  const input = document.querySelector('input').value
+  const choice = input.toLowerCase().replace(' ', '-')
   const url = `https://www.dnd5eapi.co/api/spells/${choice}`
 
   fetch(url)
