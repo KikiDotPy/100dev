@@ -10,7 +10,16 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         document.querySelector('h2').innerHTML = data.name;
-        document.querySelector('h3').innerHTML = data[classes];
+        console.log(data.subclasses)
+        // loop through array and take each of the obj
+        data.subclasses.forEach( obj => {
+            // create an li
+            const li = document.createElement('li')
+            // put the sub name into li
+            li.textContent = obj.name
+            // append li to ul
+            document.querySelector('ul').appendChild(li)
+        });
        
       })
       .catch(err => {
