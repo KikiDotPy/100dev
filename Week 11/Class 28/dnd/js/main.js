@@ -8,6 +8,8 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
+        document.querySelector('h2').innerHTML = data.name;
+        document.querySelector('h3').innerHTML = data[classes];
        
       })
       .catch(err => {
