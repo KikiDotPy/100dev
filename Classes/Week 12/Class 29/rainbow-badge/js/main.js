@@ -2,11 +2,14 @@
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch() {
-  const url = 'https://pokeapi.co/api/v2/pokemon/'
+  const poke1 = document.querySelector('#poke1').value
+  const url = 'https://pokeapi.co/api/v2/pokemon/' + poke1
 
   fetch(url)
     .then(res => res.json())
     .then(data => {
+      console.log(data)
+      document.querySelector('#pokeImg1').src = data['sprites']['front_default']
 
     })
     .catch(err => {
