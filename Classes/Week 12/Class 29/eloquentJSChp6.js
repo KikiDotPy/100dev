@@ -56,17 +56,6 @@ class Group {
 }
 
 
-
-
-    has(value) {
-        for (let member of this.group) {
-            if (member === value) {
-                return true;
-            }
-        }
-        return false;        
-    }
-
 let group = Group.from([10, 20]);
 console.log(group.has(10));
 // → true
