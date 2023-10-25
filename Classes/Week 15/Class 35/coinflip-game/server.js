@@ -1,10 +1,27 @@
 const http = require('http')
-const fs = require('fs')
+const cors = require('cors');
+
+const PORT = process.env.PORT || 8000;
+
+
 
 http.createServer((req, res) => {
-  fs.readFile('demofile.html', (err, data) => {
-    res.writeHead(200, {'Content-Type': 'text/html'})
-    res.write(data)
-    res.end()
-  })
-}).listen(8000)
+  const headers = {
+    'Access-Control-Allow-Origin': '*', /* @dev First, read about security */
+    'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
+    'Access-Control-Max-Age': 2592000, // 30 days
+  }
+
+  if (req.url === '/' && req.method === 'GET') {
+    const coinFaces = ['Head', 'Tails'];
+    const randomIndex = Math.floor(Math.random() * coinFaces.length); 
+    const randomElement = coinFaces[randomIndex];
+
+    res.writeHead(200, headers);
+    res.write(JSON.stringify({message: randomElement}));
+    res.end();
+  } else {
+    res.writeHead(404, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ message: "Route not found" }));
+  }   
+}).listen(PORT, () => console.log(`Server running on port ${PORT}`));

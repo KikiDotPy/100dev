@@ -5,18 +5,23 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Coinflip</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		<section>
+			<div id="coin">
+				<div class="side-a"></div>
+				<div class="side-b"></div>
+			</div>
+			
+			<button type="button" id='buttonApi' name="button">Flip the coin!</button>
 
-		<button type="button" id='buttonApi' name="button">Get Doggo</button>
-
-		<img src="" alt="">
-
+			<h1 id="flipResult"></h1>
+		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

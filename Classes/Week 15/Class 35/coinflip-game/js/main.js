@@ -4,8 +4,9 @@ document.getElementById('buttonApi').addEventListener('click', makeAPIRequest);
 
 
 async function makeAPIRequest() {
-    const request = await fetch('https://dog.ceo/api/breeds/image/random');
+    const request = await fetch(' http://localhost:8000/');
     const response = await request.json();
-    document.querySelector('img').src = response.message
+    console.log(response.message);
+    document.getElementById('flipResult').innerHTML = response.message // we will have a message with Head or Tails
 }
 
