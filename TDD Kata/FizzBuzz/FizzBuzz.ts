@@ -4,7 +4,11 @@ export const fizzBuzz = (minNumber : number, maxNumber) =>  {
     let i = minNumber;
 
     while (i <= maxNumber) {
-        console.log(i);
+        if (i % 3 === 0) {
+            console.log('Fizz')
+        } else {
+            console.log(i);
+        }
         i++;
     }
  }
