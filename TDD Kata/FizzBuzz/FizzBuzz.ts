@@ -1,5 +1,10 @@
 type mixed = string | number;
 
-const fizzBuzz = (number : number) : mixed =>  { 
-    return 0
+export const fizzBuzz = (minNumber : number, maxNumber) =>  { 
+    let i = minNumber;
+
+    while (i <= maxNumber) {
+        console.log(i);
+        i++;
+    }
  }
