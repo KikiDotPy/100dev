@@ -44,8 +44,43 @@ describe('FizzBuzz', () => {
         expect(consoleSpy).toHaveBeenNthCalledWith(3, 'Fizz');
 
       });
-});
 
-// For multiples of three print Fizz instead of the number
-// For the multiples of five print Buzz instead of the number
-// For numbers which are multiples of both three and five print FizzBuzz instead of the number
+      it('should console.log 1, 2, "Fizz", 4, "Buzz", "Fizz"', () => {
+
+        fizzBuzz(1, 6);
+
+        expect(consoleSpy).toHaveBeenNthCalledWith(1, 1);
+        expect(consoleSpy).toHaveBeenNthCalledWith(2, 2);
+        expect(consoleSpy).toHaveBeenNthCalledWith(3, 'Fizz');
+        expect(consoleSpy).toHaveBeenNthCalledWith(4, 4);
+        expect(consoleSpy).toHaveBeenNthCalledWith(5, 'Buzz');
+        expect(consoleSpy).toHaveBeenNthCalledWith(6, 'Fizz');
+
+      });
+
+      it('should console.log "Buzz", "Fizz", 7, 8, "Fizz", "Buzz', () => {
+
+        fizzBuzz(5, 10);
+
+        expect(consoleSpy).toHaveBeenNthCalledWith(1, 'Buzz');
+        expect(consoleSpy).toHaveBeenNthCalledWith(2, 'Fizz');
+        expect(consoleSpy).toHaveBeenNthCalledWith(3, 7);
+        expect(consoleSpy).toHaveBeenNthCalledWith(4, 8);
+        expect(consoleSpy).toHaveBeenNthCalledWith(5, 'Fizz');
+        expect(consoleSpy).toHaveBeenNthCalledWith(6, 'Buzz');
+
+      });
+
+      it('should console.log "Buzz", 11, "Fizz", 13, 14 and "FizzBuzz"', () => {
+
+        fizzBuzz(10, 15);
+
+        expect(consoleSpy).toHaveBeenNthCalledWith(1, 'Buzz');
+        expect(consoleSpy).toHaveBeenNthCalledWith(2, 11);
+        expect(consoleSpy).toHaveBeenNthCalledWith(3, 'Fizz');
+        expect(consoleSpy).toHaveBeenNthCalledWith(4, 13);
+        expect(consoleSpy).toHaveBeenNthCalledWith(5, 14);
+        expect(consoleSpy).toHaveBeenNthCalledWith(6, 'FizzBuzz');
+
+      });
+});
