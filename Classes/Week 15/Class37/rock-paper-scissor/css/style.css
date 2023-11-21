@@ -1,3 +1,25 @@
 h1{
-  color: rgb(133, 83, 161);
+  color: rgb(83, 161, 132);
+  margin: 0 7%;
+}
+
+#player1-sec h2 {
+  color: rgb(249, 133, 10);
+}
+
+#player2-sec h2 {
+  color: rgb(10, 129, 249);
+}
+
+button {
+  margin: 0 14%
+}
+
+section {
+  margin: 2%;
+}
+
+#players {
+  display: flex;
+  flex-direction: row;
 }
