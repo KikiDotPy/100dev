@@ -11,7 +11,7 @@
     <section id="player1-sec">
       <h2>Player 1</h2>
       <label for="p1-selection">Choose your weapon:</label>
-      <select name="weapons1" id="p1-selection">
+      <select name="weapons1" id="p1-selection" required>
         <option value="rock">Rock</option>
         <option value="paper">Paper</option>
         <option value="scissor">Scissor</option>
@@ -21,12 +21,14 @@
     <section id="player2-sec">
       <h2>Player 2</h2>
       <label for="p2-selection">Choose your weapon:</label>
-      <select name="weapons2" id="p2-selection">
+      <select name="weapons2" id="p2-selection" required>
         <option value="rock">Rock</option>
         <option value="paper">Paper</option>
         <option value="scissor">Scissor</option>  
       </select>
     </section>
+
+    <button id="startBattle">Start Battle!</button>
 
     <script type="text/javascript" src="/js/main.js"></script>
   </body>
