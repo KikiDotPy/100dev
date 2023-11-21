@@ -23,6 +23,14 @@ const server = http.createServer((req, res) => {
       break;
   };
 
+  if (req.url === '/' && req.method === 'GET') {
+    const player1 = document.querySelector('#player1-sec').value
+
+    res.writeHead(200, headers);
+    res.write(JSON.stringify({message: player1}));
+    res.end();
+  }
+
   fs.readFile(filePath, (err, content) => {
     if(err){
       if(err.code === 'ENOENT') {
