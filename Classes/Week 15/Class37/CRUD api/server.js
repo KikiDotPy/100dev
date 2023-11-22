@@ -1,9 +1,10 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const MongoClient = require('mongodb').MongoClient
+import { express } from 'express';
+import bodyParser from 'body-parser';
+import { MongoClient } from 'mongodb';
+import { connectionString } from './sec';
+
 
 const app = express();
-const connectionString = 'mongodb+srv://yoda:star-wars23@cluster0.g4gvgme.mongodb.net/?retryWrites=true&w=majority'
 
 app.listen(3000, () => {
 
