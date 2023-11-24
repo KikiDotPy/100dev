@@ -1,7 +1,7 @@
-import { express } from 'express';
-import bodyParser from 'body-parser';
-import { MongoClient } from 'mongodb';
-import { connectionString } from './sec';
+const express = require('express');
+const bodyParser = require('body-parser');
+const MongoClient = require('mongodb').MongoClient
+const connectionString = require('/sec.js')
 
 
 const app = express();
