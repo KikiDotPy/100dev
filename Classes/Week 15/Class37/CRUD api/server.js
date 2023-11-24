@@ -11,6 +11,7 @@ MongoClient.connect(connectionString)
     const quotesCollection = db.collection('quotes')
 
 app.listen(3000, () => {
+    app.set('view engine', 'ejs')
 
     app.use(bodyParser.urlencoded({ extended : true }));
 
@@ -19,11 +20,10 @@ app.listen(3000, () => {
             .find()
             .toArray()
             .then(result => {
-                console.log(result)
+                res.render('index.ejs', {quotes : result })
             })
-        res.sendFile(__dirname + '/index.html')
         });
-        
+
     app.post('/quotes', (req, res) => {
         quotesCollection
         .insertOne(req.body)
