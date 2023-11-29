@@ -56,6 +56,17 @@ app.listen(3000, () => {
                })
             .catch(error => console.error(error))
           });
+        app.delete('/quotes', (req, res) => {
+            quotesCollection
+            .deleteOne(
+                { name: req.body.name }
+            )
+            .then( res => {
+                if (res.deletedCount === 0) return res.json('No quote to delete') 
+                res.json("Deleted Darth Vader's quote") 
+            })
+            .catch( error => { console.log(error) })
+        })
         
     });
 
