@@ -24,7 +24,7 @@ app.listen(3000, () => {
             .find()
             .toArray()
             .then(result => {
-                res.render('index.ejs', {quotes : result })
+                res.render('index.ejs', { quotes : result })
             })
         });
 
@@ -38,8 +38,25 @@ app.listen(3000, () => {
         })
 
         app.put('/quotes', (req, res) => {
-            console.log(req.body)
-        })
+            quotesCollection  
+            .findOneAndUpdate(
+                { name: 'Yoda' },
+                {
+                  $set: {
+                    name: req.body.name,
+                    quote: req.body.quote,
+                  },
+                },
+                {
+                  upsert: true,
+                }
+              )
+            .then(result => {
+                res.json('success')
+               })
+            .catch(error => console.error(error))
+          });
+        
     });
 
 })
