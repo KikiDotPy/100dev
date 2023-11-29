@@ -4,6 +4,8 @@ const MongoClient = require('mongodb').MongoClient
 const connectionString = require('./sec.js');
 const app = express();
 
+app.use(express.static('public'));
+
 MongoClient.connect(connectionString)
 .then(client => {
     console.log('Connected to Database')
