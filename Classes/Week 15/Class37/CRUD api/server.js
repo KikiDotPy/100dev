@@ -5,6 +5,8 @@ const connectionString = require('./sec.js');
 const app = express();
 
 app.use(express.static('public'));
+app.use(bodyParser.json())
+
 
 MongoClient.connect(connectionString)
 .then(client => {
@@ -33,6 +35,10 @@ app.listen(3000, () => {
             res.redirect('/')
         })
         .catch(error => console.error(error))
+        })
+
+        app.put('/quotes', (req, res) => {
+            console.log(req.body)
         })
     });
 
